@@ -1,8 +1,12 @@
 @import "tailwindcss";
+@theme {
+  --color-primary: #C06C84;
+}
 
 h1 {
-  @apply text-2xl font-bold;
+  @apply text-2xl font-bold text-primary;
 }
+
 #counter {
   @apply bg-blue-300 p-4;
 }
